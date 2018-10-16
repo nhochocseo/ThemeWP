@@ -1,0 +1,95 @@
+#2_section_group_li {
+    display: none!important;
+}
+.tagcloud {
+    display: none;
+}
+#postexcerpt .inside p {
+    display: none;
+}
+textarea#excerpt {
+    height: 250px;
+}
+ul.redux-group-menu li:last-child,
+li#toplevel_page_hk_options ul li:last-child, 
+li#toplevel_page_hk_options ul li:nth-child(4), 
+li#wp-admin-bar-hk_options_3,
+li#wp-admin-bar-hk_options_4,
+ul.redux-group-menu li:nth-child(3) {
+    display: none;
+}
+div#redux-header {
+    display: none;
+}
+ul.select2-choices.ui-sortable {
+    padding: 5px;
+    background: #C6FDF4;
+    border: 1px solid #6BC9BA;
+}
+
+li.select2-search-choice {
+    border-radius: 0px!important;
+    background: #137D6C!important;
+    border: 1px solid #137D6C!important;
+    color: #fff!important;
+    height: 22px!important;
+    line-height: 22px!important;
+    padding: 4px 22px!important;
+    margin: 0px!important;
+    margin-right: 8px!important;
+}
+.error.notice {
+    display: none;
+}
+a.select2-search-choice-close {
+    background-color: #FEFFFF;
+    margin-top: 5px;
+    border-radius: 50%;
+    margin-right: 5px!important;
+}
+
+.widgets-holder-wrap.closed .widget {
+    display: block!important;
+}
+div#widgets-right .sidebar-description {
+    min-height: 0px!important;
+    margin-top: 0px!important;
+}
+div#widgets-right .widgets-sortables {
+    min-height: inherit!important;
+}
+.sidebar-name-arrow {
+    display: none!important;
+}
+ul#adminmenu {
+    background-color: #0A3E71;
+}
+
+div#wpadminbar {
+    background: #0A3E71;
+}
+#adminmenu .wp-has-current-submenu .wp-submenu, #adminmenu .wp-has-current-submenu .wp-submenu.sub-open, #adminmenu .wp-has-current-submenu.opensub .wp-submenu, #adminmenu a.wp-has-current-submenu:focus+.wp-submenu, .no-js li.wp-has-current-submenu:hover .wp-submenu {
+    background-color: #022C54;
+}
+#adminmenu li.menu-top:hover, #adminmenu li.opensub>a.menu-top, #adminmenu li>a.menu-top:focus {
+    background-color: #022C54;
+}
+#adminmenu .wp-submenu, .folded #adminmenu .wp-has-current-submenu .wp-submenu, .folded #adminmenu a.wp-has-current-submenu:focus+.wp-submenu {
+    background-color: #022C54;
+}
+#adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap {
+    background-color: #0A3E71;
+}
+#adminmenu li.wp-has-submenu.wp-not-current-submenu.opensub:hover:after {
+    border-right-color: #0A3E71;
+}
+#wpadminbar .ab-top-menu>li.hover>.ab-item, #wpadminbar.nojq .quicklinks .ab-top-menu>li>.ab-item:focus, #wpadminbar:not(.mobile) .ab-top-menu>li:hover>.ab-item, #wpadminbar:not(.mobile) .ab-top-menu>li>.ab-item:focus {
+    background: #022C54;
+    color: #47D8FF;
+}
+#wpadminbar .menupop .ab-sub-wrapper, #wpadminbar .shortlink-input {
+    background: #022C54;
+}
+.updatedredux-notice{
+    display: none;
+} 
