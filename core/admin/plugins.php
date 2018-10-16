@@ -16,7 +16,7 @@ function CaoDung_plugin_activation() {
         tgmpa( $plugins, $configs );
 }
 add_action('tgmpa_register', 'CaoDung_plugin_activation');
-function include_add_upload_image() {
+function include_add_js() {
 	/*
 	 * I recommend to add additional conditions just to not to load the scipts on each page
 	 * like:
@@ -27,9 +27,10 @@ function include_add_upload_image() {
 	}
  
  	wp_enqueue_script( 'include_add_upload_image', get_stylesheet_directory_uri() . '/core/admin/js/add_image.js', array('jquery'), null, false );
+        wp_enqueue_script( 'bootstrap', get_stylesheet_directory_uri() . '/core/admin/bootstrap/js/bootstrap.min.js', array('jquery'), null, false );
 }
  
-add_action( 'admin_enqueue_scripts', 'include_add_upload_image' );
+add_action( 'admin_enqueue_scripts', 'include_add_js' );
 
 
 ?>

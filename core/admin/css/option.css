@@ -10,8 +10,40 @@
     font-size: 19px;
 }
 .form_option {
-    margin-left: 15px;
+    /*margin-left: 15px;*/
+}
+.form_option .form-table {
+	margin: 10px;
+}
+.form_option .tab-content .submit {
+	margin: 10px;
+}
+.form_option .tab-content .form-table input.input_text {
+	width: 100%;
 }
 .option_header .form_option .form-table tbody tr {
     border-bottom: 1px solid #f1f1f1;
+}
+.menu-setting {
+	background: #d9e4ef;
+    padding: 15px 0px 10px 0px;
+}
+.menu-setting li {
+	padding-left: 15px;
+}
+.tab-content {
+	padding: 10px;
+}
+.menu-setting li a {
+	color: #0a3e71;
+    font-weight: 500;
+    text-decoration: none;
+}
+.menu-setting li a.active {
+	color: #ffffff;
+    background: #0073aa;
+    padding: 10px;
+}
+.menu-setting li a:focus {
+	box-shadow:none;
 }

@@ -22,6 +22,7 @@
 	function load_custom_wp_admin_style(){
 		wp_enqueue_style( 'admin_css', get_bloginfo('template_directory'). '/core/admin/style-admin.css' );
 		wp_enqueue_style( 'option_css', get_bloginfo('template_directory'). '/core/admin/css/option.css' );
+		wp_enqueue_style( 'bootstrap', get_bloginfo('template_directory'). '/core/admin/bootstrap/css/bootstrap.min.css' );
 	}
 
 	add_action('wp_dashboard_setup', 'my_custom_dashboard_widgets');
