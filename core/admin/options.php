@@ -4,7 +4,7 @@ function theme_settings_page(){
 ?>
 	<div class="option_header">
 	    <div class="title-header">Cài đặt trang</div>
-	    <form method="post" action="options.php">
+	    <form method="post" action="options.php" class="form_option">
 	        <?php
 	            settings_fields("section");
 	            do_settings_sections("theme-options");      
@@ -34,7 +34,7 @@ function display_facebook_element()
 <?php
 }
 
-function display_layout_element()
+function hien_quang_cao()
 {
 	?>
 		<input type="checkbox" name="theme_layout" value="1" <?php checked(1, get_option('theme_layout'), true); ?> /> 
@@ -47,7 +47,7 @@ function display_theme_panel_fields()
 	
 	add_settings_field("twitter_url", "Twitter Profile Url", "display_twitter_element", "theme-options", "section");
     add_settings_field("facebook_url", "Facebook Profile Url", "display_facebook_element", "theme-options", "section");
-    add_settings_field("theme_layout", "Do you want the layout to be responsive?", "display_layout_element", "theme-options", "section");
+    add_settings_field("theme_layout", "Hiện quảng cáo ?", "hien_quang_cao", "theme-options", "section");
 
     register_setting("section", "twitter_url");
     register_setting("section", "facebook_url");
