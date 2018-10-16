@@ -50,6 +50,10 @@ function display_twitter_element()
 function display_facebook_element()
 {
 ?>
+<p>
+    <input type="text" value="" class="regular-text process_custom_images" id="process_custom_images" name="" max="" min="1" step="1">
+    <button class="set_custom_images button">Set Image ID</button>
+</p>
     <input type="text" name="facebook_url" class="input_text" id="facebook_url" value="<?php echo get_option('facebook_url'); ?>" />
 <?php
 }
